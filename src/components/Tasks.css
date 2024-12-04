@@ -1,0 +1,56 @@
+.tasks {
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .filter-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    gap:30px;
+  }
+  
+  .filter-bar button {  
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .filter-bar button:hover {
+    background-color: #0056b3;
+  }
+  
+  .filter-bar button.active {
+    background-color: #0056b3;
+  }
+  
+  .task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .task-list p {
+    font-size: 18px;
+    text-align: center;
+    color: #555;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
