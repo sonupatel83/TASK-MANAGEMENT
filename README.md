@@ -13,7 +13,7 @@ A responsive task management web application designed to help users create, mana
 6. Tasks: Displays a list of tasks with filter options.
 
 # How To Run:
-1. Install install the required libraries by running:
+1. Install the required libraries by running:
         Copy code:
             pip install -r requirements.txt
 
